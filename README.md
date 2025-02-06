@@ -10,18 +10,19 @@
     classify/best/7pth/...
     ```
 3. 数据存放：
-dataset/
-│
-├── origin/
-│   ├── 1.nii.gz
-│   ├── 2.nii.gz
-│   └── ...
-│
-└── label/
-    ├── 1.nii.gz
-    ├── 2.nii.gz
-    └── ...
-   
+    ```
+    dataset/
+    │
+    ├── origin/
+    │   ├── 1.nii.gz
+    │   ├── 2.nii.gz
+    │   └── ...
+    │
+    └── label/
+        ├── 1.nii.gz
+        ├── 2.nii.gz
+        └── ...
+    ```
 4. 运行分割训练：
     ```
     MC_Net_main/train4.py
